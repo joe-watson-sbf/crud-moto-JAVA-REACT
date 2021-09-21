@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lobster&family=Monoton&display=swap');
+
+.spinner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.navBar a{
+  text-decoration: none;
+  padding: 8px;
+  font-weight: 800;
+  color: #9fd3c7;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.list{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list .title{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.list .title h1{
+  display: flex;
+  width: 440px;
+  justify-content: center;
+  border-bottom: solid;
+  border-radius: 14px;
+  border-color: #9fd3c7;
+  box-shadow: 1px 1px 6px -2px rgba(0, 0, 0, 0.411);
+
+  color: #142d4c;
+  font-family: 'Lobster', cursive;
+  padding: 8px;
+}
+
+.list .motos {
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 5%;
+}
+
+
+
+
+.btn button{
+  width: 8rem;
+  margin: 4px;
+}
+
+.btn-new {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 80%;
+  left: 87%;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+.btn-new .btn{
+  padding: 24px;
+  border-radius: 50%;
+  box-shadow: 1px 0px 8px rgba(0, 0, 0, 0.575);
+}
+
+.btn-new button{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #000a64;
+  align-content: center;
+}
+
